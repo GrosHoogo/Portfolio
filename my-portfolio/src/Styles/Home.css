@@ -1,0 +1,19 @@
+/* src/Styles/Home.css */
+
+.Home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../Images/fond.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: -1; /* Place le fond derrière les autres éléments */
+  }
