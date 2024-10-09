@@ -16,7 +16,7 @@
   border-radius: 30px;
   width: 342px;
   height: 48px;
-  background-color: rgba(20, 20, 20, 0.8);
+  background-color: rgba(48, 48, 48, 0.8);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -68,6 +68,8 @@
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 19px;
   transition: all 0.3s ease;
+  outline: 0.009px solid white;
+  outline-offset: 0.009px;
 }
 
 .Nav_settingsButton__67WTL {
