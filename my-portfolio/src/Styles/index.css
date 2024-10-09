@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-image: url('../Images/fond.jpg'); /* Chemin vers ton image */
+  background-size: cover; /* Pour couvrir tout l'écran */
+  background-position: center; /* Centre l'image */
+  background-repeat: no-repeat; /* Évite les répétitions */
+  background-attachment: fixed; /* L'image reste fixe lors du scroll */
+}

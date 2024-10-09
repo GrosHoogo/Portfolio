@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* src/Components/TextComponent.css */
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.text-component-wrapper {
+    background-color: transparent;
+    padding: 50px 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.home-content {
+    position: relative;
+    color: #FFFFFFBF;
+    z-index: 2;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.home-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.home-content h1 span {
+    color: #ffffff33;
+}
+
+.home-content h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.home-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 30px auto;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 30px 0 50px 0;
+}
+
+.social-icons a {
+    font-size: 2rem;
+    color: #ffffff33;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
+
+.btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.typing-text {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.typing-text span {
+    color: #ffffff33;
+}
+
+/* Responsive pour mobile */
+@media (max-width: 768px) {
+    .home-content h1 {
+        font-size: 3rem;
+    }
+
+    .home-content h3 {
+        font-size: 2rem;
+    }
+
+    .home-content p {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .social-icons a {
+        font-size: 1.8rem; 
+    }
+
+    .btn {
+        padding: 12px 24px;
+        font-size: 1rem; 
+    }
+}

@@ -1,17 +1,14 @@
-// src/Pages/Home.js
 import React from 'react';
-import Navbar from '../Components/Navbar';
-import '../Styles/Home.css';
+import Navbar from '../Components/Navbar'; // Ta barre de navigation existante
+import TextComponent from '../Components/TextComponent';
 
-const Home = () => {
+function App() {
   return (
-    <div className="Home">
-      <Navbar />
-      <div className="background-image">
-        {/* Vous pouvez ajouter du contenu supplémentaire ici si nécessaire */}
-      </div>
-    </div>
+    <>
+      <Navbar />  {/* Navigation */}
+      <TextComponent />  {/* Ancien contenu avec le texte et l'image */}
+    </>
   );
-};
+}
 
-export default Home;
+export default App;
